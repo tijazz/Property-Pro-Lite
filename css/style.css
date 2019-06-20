@@ -196,7 +196,7 @@ footer{
   font-size: 20px;
 }
 
-.form input {
+.form input, .form select, .form textarea {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
