@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Property Pro Lite is a platform where people can create and/or search properties for sale or rent">
+   <meta name="keywords" content="property, search property, sell or rent property, signup">   
+    <meta name="author" content="Tijani Abdulazeez Titilope">
+  <title>Property Pro-lite</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+ 
+</head>
+<body>
+  
+
+    <!-- The sidebar -->
+<div class="sidebar">
+  <p>Welcome!</p>
+  <br>
+  <a class="active" href="addproperty.html">Add Property</a>
+  <a href="updateProperty.html">Update Property</a>
+  <a href="deleteProperty.html">Delete Property</a>
+  <a href="properties.html">View All Property</a>
+</div>
+
+<!-- Page content -->
+<div class="content">
+ <section class="rightSide" id="boxes">
+      
+      <div class="container">
+
+<div>
+  <h2>All Properties</h2>
+  <hr>
+</div>
+
+         <div class="box">
+          <img src="./img/img5.jpg">
+          <h3>2 Bedroom flat</h3>
+ <p>Price: <strong>#500,000</strong><span>Location: <strong>Lagos</strong> </span></p>
+          <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <button class="tablink" id="updateBtn">Update</button>
+          <button class="tablink" id="deleteBtn">Delete</button>
+          <button class="tablink" id="soldBtn">Sold</button>
+        </div>
+         <div class="box">
+          <img src="./img/img5.jpg">
+          <h3>2 Bedroom flat</h3>
+ <p>Price: <strong>#500,000</strong><span>Location: <strong>Lagos</strong> </span></p>
+          <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <button class="tablink" id="updateBtn">Update</button>
+          <button class="tablink">Delete</button>
+          <button class="tablink">Sold</button>
+        </div>
+         <div class="box">
+          <img src="./img/img5.jpg">
+          <h3>2 Bedroom flat</h3>
+ <p>Price: <strong>#500,000</strong><span>Location: <strong>Lagos</strong> </span></p>
+          <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <button class="tablink">Update</button>
+          <button class="tablink">Delete</button>
+          <button class="tablink">Sold</button>
+        </div>
+         <div class="box">
+          <img src="./img/img5.jpg">
+          <h3>2 Bedroom flat</h3>
+ <p>Price: <strong>#500,000</strong><span>Location: <strong>Lagos</strong> </span></p>
+          <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <button class="tablink">Update</button>
+          <button class="tablink">Delete</button>
+          <button class="tablink">Sold</button>
+        </div>
+         <div class="box">
+          <img src="./img/img5.jpg">
+          <h3>2 Bedroom flat</h3>
+ <p>Price: <strong>#500,000</strong><span>Location: <strong>Lagos</strong> </span></p>
+          <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <button class="tablink">Update</button>
+          <button class="tablink">Delete</button>
+          <button class="tablink">Sold</button>
+        </div>
+        <div class="box">
+          <img src="./img/img5.jpg">
+          <h3>2 Bedroom flat</h3>
+ <p>Price: <strong>#500,000</strong><span>Location: <strong>Lagos</strong> </span></p>
+          <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <button class="tablink">Update</button>
+          <button class="tablink">Delete</button>
+          <button class="tablink">Sold</button>
+        </div>
+      </div>
+</section>
+
+
+</div> 
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Delete Property</h2>
+    </div>
+    <div class="modal-body">
+  <p>You are about to delete a property permanently.</p>
+    </div>
+    <div class="modal-footer">
+       <button class="tablink1" id="cancel">Cancel</button>
+      <button class="tablink" id="delete">Delete</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+ <h1>Update Property Advert</h1> 
+ <div class="modal-body">
+    <form class="register-form" method="POST">
+        <p> 
+          <input id="propertyTitle" required="required" type="text" placeholder="Property Title"/>
+        </p>
+        
+         <p> 
+         <textarea id="description" required="required" placeholder="A brief property description here..."></textarea>
+        </p>
+         
+         <p> 
+          <input id="propertyPrice" required="required" type="text" placeholder="Sale/Rent Price"/>
+        </p>
+         <p> 
+        <select id="propertyCategory" placeholder="Property Category..">
+                     <option selected>Select Category ...</option>
+                     <option>Category 1</option>
+                      <option>Category 2</option>
+                      <option>Category 3</option>
+                    </select>
+        </p>
+      <p>        
+        <input type="file" class="PropertyImage"  placeholder="Upload image"/>
+        </p>
+      </form>
+    </div>
+<div class="modal-footer">
+       <button class="tablink1" id="cancel">Cancel</button>
+      <button class="tablink" id="delete">Update</button>
+    </div>
+
+
+ </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>
